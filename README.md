@@ -1,4 +1,5 @@
 # React Three Fiber Boiler Plate
+#### Made this template some time ago - it has never failed to serve me.
 - Gltf import
 - Camera set-up
 - Ambient light
