@@ -1,5 +1,5 @@
 import React from "react"
-import {useGLTF, useAspect} from "@react-three/drei"
+import {useGLTF} from "@react-three/drei"
 import './App.css';
 
 
@@ -9,7 +9,7 @@ function Model(props) {
 
 
 
-  const { nodes, materials } = useGLTF("/suzanne.glb");
+  const { nodes } = useGLTF("/suzanne.glb");
   return (
     <group {...props} dispose={null} 
 

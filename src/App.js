@@ -1,8 +1,7 @@
 
-import React,  { Suspense, useRef, useState, useEffect } from "react"
-import { Canvas, useFrame } from "@react-three/fiber"
+import React,  { Suspense } from "react"
+import { Canvas } from "@react-three/fiber"
 import { ContactShadows, Environment, OrbitControls} from "@react-three/drei"
-import THREE from "three"
 import './App.css';
 import Model from './Model.jsx';
 
