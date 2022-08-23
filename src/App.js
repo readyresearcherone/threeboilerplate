@@ -29,7 +29,7 @@ export function App() {
         <spotLight intensity={0.5} angle={0.1} penumbra={1} position={[10, 15, 10]} castShadow />
         <Suspense fallback={null}>
           <Model 
-        
+          scale = {0.8}
           position={[0,0,0] 
           }
        />
